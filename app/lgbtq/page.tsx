@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function LGBTQPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-500 to-purple-600 text-white p-8">
+    <div className="">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold mb-8">Hello Jørgen!</h1>
 

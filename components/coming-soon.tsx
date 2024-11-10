@@ -14,7 +14,7 @@ export function ComingSoon() {
   });
 
   function calculateTimeLeft() {
-    const difference = +new Date("2025-05-02") - +new Date();
+    const difference = +new Date("2025-05-08") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -36,9 +36,7 @@ export function ComingSoon() {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in-down">
             Blåkuk 2025
           </h1>
-          <p className="text-xl md:text-2xl mb-12 animate-fade-in-up">
-            The surprise trip of a lifetime awaits...
-          </p>
+
           <div className="flex justify-center space-x-4 mb-12">
             {Object.keys(timeLeft).length ? (
               Object.entries(timeLeft).map(([unit, value]: any) => (
@@ -58,9 +56,6 @@ export function ComingSoon() {
               <span className="text-2xl md:text-4xl">Time's up!</span>
             )}
           </div>
-          <p className="text-lg md:text-xl animate-pulse">
-            Destination reveal and launch party on May 2nd, 2025
-          </p>
         </div>
       </div>
     </div>
