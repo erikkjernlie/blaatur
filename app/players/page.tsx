@@ -2,6 +2,7 @@
 
 interface Player {
   name: string;
+  description?: string,
 }
 
 const players: Player[] = [
@@ -46,6 +47,7 @@ const players: Player[] = [
   },
   {
     name: "Anders",
+    description: "The one and only",
   },
 ];
 
@@ -61,6 +63,7 @@ export default function PlayersPage() {
             className="bg-white bg-opacity-10 rounded-lg p-6 backdrop-blur-sm hover:bg-opacity-20 transition-all"
           >
             <h2 className="text-2xl font-bold mb-2">{player.name}</h2>
+            {player.description && <p>{player.description}</p>}
           </div>
         ))}
       </div>
