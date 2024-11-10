@@ -2,28 +2,51 @@
 
 interface Player {
   name: string;
-  age: number;
-  salary: string;
-  strengths: string[];
-  weaknesses: string[];
 }
 
 const players: Player[] = [
   {
-    name: "Erik Andersson",
-    age: 28,
-    salary: "$85,000",
-    strengths: ["Leadership", "Strategic thinking", "Team player"],
-    weaknesses: ["Impatient", "Workaholic"],
+    name: "Jørgen",
   },
   {
-    name: "Sofia Berg",
-    age: 31,
-    salary: "$92,000",
-    strengths: ["Creative", "Problem solver", "Detail-oriented"],
-    weaknesses: ["Perfectionist", "Takes on too much"],
+    name: "Jakob",
   },
-  // Add 12 more players with similar structure
+  {
+    name: "Kasper",
+  },
+  {
+    name: "Herman",
+  },
+  {
+    name: "Kristoffer",
+  },
+  {
+    name: "Marius",
+  },
+  {
+    name: "Ludvig",
+  },
+  {
+    name: "Espen",
+  },
+  {
+    name: "Oscar",
+  },
+  {
+    name: "Erik",
+  },
+  {
+    name: "Jonas",
+  },
+  {
+    name: "Joakim",
+  },
+  {
+    name: "Magnus",
+  },
+  {
+    name: "Anders",
+  },
 ];
 
 export default function PlayersPage() {
@@ -38,26 +61,6 @@ export default function PlayersPage() {
             className="bg-white bg-opacity-10 rounded-lg p-6 backdrop-blur-sm hover:bg-opacity-20 transition-all"
           >
             <h2 className="text-2xl font-bold mb-2">{player.name}</h2>
-            <p className="text-lg mb-1">Age: {player.age}</p>
-            <p className="text-lg mb-4">Salary: {player.salary}</p>
-
-            <div className="mb-3">
-              <h3 className="text-lg font-semibold mb-2">Strengths:</h3>
-              <ul className="list-disc list-inside">
-                {player.strengths.map((strength, idx) => (
-                  <li key={idx}>{strength}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Weaknesses:</h3>
-              <ul className="list-disc list-inside">
-                {player.weaknesses.map((weakness, idx) => (
-                  <li key={idx}>{weakness}</li>
-                ))}
-              </ul>
-            </div>
           </div>
         ))}
       </div>

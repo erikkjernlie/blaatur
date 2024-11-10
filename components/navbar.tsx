@@ -44,7 +44,7 @@ const Navbar = () => {
             className="hover:text-blue-200 transition-colors text-xl"
             onClick={() => setIsMenuOpen(false)}
           >
-            Home
+            Hjem
           </Link>
         </li>
         <li>
@@ -53,7 +53,7 @@ const Navbar = () => {
             className="hover:text-blue-200 transition-colors text-xl"
             onClick={() => setIsMenuOpen(false)}
           >
-            Players
+            Deltagere
           </Link>
         </li>
         <li>
@@ -65,22 +65,13 @@ const Navbar = () => {
             LGBTQ+
           </Link>
         </li>
-        <li>
-          <Link
-            href="/info"
-            className="hover:text-blue-200 transition-colors text-xl"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Info
-          </Link>
-        </li>
       </ul>
 
       {/* Desktop menu */}
       <ul className="hidden md:flex justify-center space-x-8">
         <li>
           <Link href="/" className="hover:text-blue-200 transition-colors">
-            Home
+            Hjem
           </Link>
         </li>
         <li>
@@ -88,17 +79,12 @@ const Navbar = () => {
             href="/players"
             className="hover:text-blue-200 transition-colors"
           >
-            Players
+            Deltagere
           </Link>
         </li>
         <li>
           <Link href="/lgbtq" className="hover:text-blue-200 transition-colors">
             LGBTQ+
-          </Link>
-        </li>
-        <li>
-          <Link href="/info" className="hover:text-blue-200 transition-colors">
-            Info
           </Link>
         </li>
       </ul>
