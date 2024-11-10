@@ -53,7 +53,7 @@ const Navbar = () => {
             className="hover:text-blue-200 transition-colors text-xl"
             onClick={() => setIsMenuOpen(false)}
           >
-            Deltagere
+            Spillere
           </Link>
         </li>
         <li>
@@ -79,7 +79,7 @@ const Navbar = () => {
             href="/players"
             className="hover:text-blue-200 transition-colors"
           >
-            Deltagere
+            Spillere
           </Link>
         </li>
         <li>

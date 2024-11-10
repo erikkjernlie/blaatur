@@ -36,7 +36,7 @@ const players: Player[] = [
     name: "Erik",
   },
   {
-    name: "Jonas",
+    name: "Hemmelig spiller",
   },
   {
     name: "Joakim",
