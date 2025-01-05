@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-export default function LGBTQPage() {
+export default function LGBTQSection() {
   return (
-    <div className="">
+    <section id="lgbtq-section" className="page-section ">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold mb-8">Hello Jørgen!</h1>
 
@@ -15,7 +15,9 @@ export default function LGBTQPage() {
             priority
           />
         </div>
+        <p>Du kan lese mer om LGBTQ+ og kjønnsykdommer på <a href="http://www.google.com" className="underline">her</a></p>
       </div>
-    </div>
+    </section>
   );
 }
+
