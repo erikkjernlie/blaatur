@@ -1,5 +1,17 @@
-import { ComingSoon } from "@/components/coming-soon"
+import { CountDown } from "@/components/count-down"
+import { SplineBackground } from "@/components/spline-background"
+import { BluebetSection } from "@/components/bluebet-section"
+import { PlayerSection } from "@/components/player-section"
+import LGBTQSection from "@/components/lgbtq-section"
 
 export default function Page() {
-  return <ComingSoon />
+  return (
+  <main id="home">
+    <SplineBackground />
+    <CountDown />
+    <BluebetSection />
+    <PlayerSection />
+    <LGBTQSection />
+  </main>
+  )
 }
