@@ -57,7 +57,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            href="/bluebet"
+            href="#bluebet-section"
             className="hover:text-blue-200 transition-colors text-xl tracking-wider uppercase"
             onClick={() => setIsMenuOpen(false)}
           >

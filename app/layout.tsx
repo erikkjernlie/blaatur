@@ -21,9 +21,9 @@ export default function RootLayout({
       <body
         className={`${GeistMono.className} antialiased w-screen min-h-screen flex flex-col bg-blue text-white`}
       >
-        <div className="fixed top-0 left-0 right-0 z-50">
-          <Navbar />
-        </div>
+        {/* <div className="fixed top-0 left-0 right-0 z-50"> */}
+        {/*   <Navbar /> */}
+        {/* </div> */}
         <main className="flex-1 w-full flex items-center justify-center">
           {children}
         </main>
