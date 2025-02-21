@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${GeistMono.className} antialiased w-screen h-screen flex flex-col bg-blue text-white`}
+        className={`${GeistMono.className} antialiased w-screen h-dvh flex flex-col bg-blue text-white`}
       >
         {/* <div className="fixed top-0 left-0 right-0 z-50"> */}
         {/*   <Navbar /> */}
