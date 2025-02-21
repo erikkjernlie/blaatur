@@ -5,7 +5,10 @@ import Spline from '@splinetool/react-spline/next';
 
 export function SplineBackground() {
   return (
-    <main className="w-screen h-screen">
+    <main 
+      className="w-screen"
+      style={{ height: "100dvh", maxHeight: "100dvh" }}
+    >
       <Spline
         // scene="https://prod.spline.design/faNCQroi2cRAEYWB/scene.splinecode"
         // scene="https://prod.spline.design/LCpKdVgTVy9jcUu0/scene.splinecode"
