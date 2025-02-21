@@ -5,7 +5,7 @@ import Spline from '@splinetool/react-spline/next';
 
 export function SplineBackground() {
   return (
-    <main className="w-screen h-[calc(100vh+50px)]">
+    <main className="w-screen h-screen">
       <Spline
         // scene="https://prod.spline.design/faNCQroi2cRAEYWB/scene.splinecode"
         // scene="https://prod.spline.design/LCpKdVgTVy9jcUu0/scene.splinecode"

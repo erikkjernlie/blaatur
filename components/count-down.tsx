@@ -17,13 +17,14 @@ export function CountDown() {
           <Counter />
           <div className="flex gap-1 text-center">
             Hvordan går blåbetten? Les mer
-            <Link 
-              href="https://coinmarketcap.com/currencies/hawktuuuah/?fbclid=IwZXh0bgNhZW0CMTEAAR3enHBfkM7wyvpJxWZUgasLylXYboTFBIbQ7T3P-HbrLwnwAv8poHFpK6M_aem_BKmhP95hxwwYEVXBI-h60A" 
+            <Link
+              href="https://www.youtube.com/watch?v=K48AasRJpag"
               className="hover:text-blue underline pointer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               her
             </Link>.
-
           </div>
         </div>
       </div>
