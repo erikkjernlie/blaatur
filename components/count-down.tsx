@@ -8,7 +8,7 @@ export function CountDown() {
   return (
     <section className="px-4 md:px-10 mx-auto max-w-7xl ">
 
-      <div className="absolute bottom-16 md:bottom-16 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-8 md:bottom-12 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-col gap-3 h-full justify-center items-center">
           {/* <h1 className="text-2xl md:text-4xl font-bold mb-4 animate-fade-in-down tracking-wider	uppercase"> */}
           {/*   Blåkuk is coming... */}

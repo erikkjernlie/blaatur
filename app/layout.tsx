@@ -1,4 +1,5 @@
-import Navbar from "@/components/navbar";
+// import Navbar from "@/components/navbar";
+import SplineWatermarHider from "@/components/spline-watermark-hider";
 import type { Metadata } from "next";
 // import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
@@ -26,6 +27,8 @@ export default function RootLayout({
         {/*   <Navbar /> */}
         {/* </div> */}
         <main className="flex-1 w-full flex items-center justify-center">
+          <SplineWatermarHider/>
+          <div className="absolute bottom-0 right-0 w-96 h-16 bg-app-background"/>
           {children}
         </main>
       </body>
