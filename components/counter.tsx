@@ -13,7 +13,7 @@ function TimeComponent(props: TimeComponentProps) {
       key={unit}
       className="flex flex-col md:flex-row gap-1 items-start md:items-end bg-white bg-opacity-10 rounded-lg p-4 backdrop-blur-md border border-border tracking-wider"
     >
-      <span className="text-xl md:text-2xl font-bold">{value || "-"}</span>
+      <span className="text-xl md:text-2xl font-bold">{value ?? "-"}</span>
       <span className="text-sm md:text-base uppercase text-white/50">{unit}</span>
     </div>
   )
@@ -50,7 +50,7 @@ export function Counter() {
   // }
 
   return (
-    <div className="flex justify-center items-center space-x-2">
+    <div className="flex justify-center items-center space-x-1">
       <TimeComponent  value={timeLeft?.dager} unit={"dager"} />
       <span>:</span>
       <TimeComponent  value={timeLeft?.timer} unit={"timer"} />
