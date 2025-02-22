@@ -28,7 +28,6 @@ export default function RootLayout({
         {/* </div> */}
         <main className="flex-1 w-full flex items-center justify-center">
           <SplineWatermarHider/>
-          <div className="absolute bottom-0 right-0 w-96 h-16 bg-app-background"/>
           {children}
         </main>
       </body>
